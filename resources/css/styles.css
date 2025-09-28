@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
   box-sizing: border-box;
 }
 
@@ -40,6 +40,10 @@ ul li a {
 a {
   text-decoration: none;
 }
+a:hover {
+  color: rgb(181, 181, 181);
+  text-decoration: underline;
+}
 
 .header-logo-text {
   font-size: 34px;
@@ -76,6 +80,11 @@ nav {
   width: 100px;
   background-color: #3882F6;
   color: #F9FAF8;
+}
+.hero-div-1 button:hover {
+  cursor: pointer;
+  background-color: #F9FAF8;
+  color: #3882F6;
 }
 
 .illustration-main-div {
@@ -127,7 +136,6 @@ nav {
 
 .quote-text {
   font-size: 36px;
-  font-weight: 300;
 }
 
 .quote-div {
@@ -164,7 +172,12 @@ nav {
   border: 2px solid #F9FAF8;
   border-radius: 5px;
   padding: 8px;
-  width: 100px;
+  width: 110px;
+}
+.call-to-action button:hover {
+  cursor: pointer;
+  background-color: #F9FAF8;
+  color: #3882F6;
 }
 
 footer {
